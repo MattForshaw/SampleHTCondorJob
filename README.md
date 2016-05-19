@@ -4,6 +4,8 @@ Example HTCondor job (running .jar) for Newcastle Uni students.
 ## Running the jobs.
 Upload the contents of this repository to the condor1 node.
 
-Run using
+Run using `` condor_submit windows.submit ``
 
-`` condor_submit windows.submit ``
+
+
+More information on the use of HTCondor is avialable at https://research.cs.wisc.edu/htcondor/manual/quickstart.html
