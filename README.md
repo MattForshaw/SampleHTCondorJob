@@ -14,7 +14,7 @@ When you run this command you will be prompted twice for your password, or you c
 
 To upload files for use by HTCondor you can use SCP (http://man7.org/linux/man-pages/man1/scp.1.html) (using [Git Bash](https://git-for-windows.github.io/) for Windows or the terminal in Linux/OS X).
 
-[Getting started with the Shell](homepages.cs.ncl.ac.uk/matthew.forshaw/teaching/csc8622/shell/)
+[Getting started with the Shell](http://homepages.cs.ncl.ac.uk/matthew.forshaw/teaching/csc8622/shell/)
  
 ## Running the jobs.
 Upload the contents of this repository to the condor1 node.
