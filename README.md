@@ -11,6 +11,8 @@ If you are trying to access HTCondor from outside of the University network (i.e
 `` ssh -t username@linux.cs.ncl.ac.uk ssh username@condor1``
 
 When you run this command you will be prompted twice for your password, or you can set up public-private SSH keys to do this automatically for you.
+
+To upload files for use by HTCondor you can use SCP (http://man7.org/linux/man-pages/man1/scp.1.html) (using Git Bash for Windows or the terminal in Linux/OS X).
  
 ## Running the jobs.
 Upload the contents of this repository to the condor1 node.
