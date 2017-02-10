@@ -25,6 +25,16 @@ More information on the use of HTCondor is avialable at https://research.cs.wisc
 
 The vast majority of compute nodes available on HTCondor these days are Windows-based, so you should aim to follow the Windows-specific instructions.
 
+
+## Targetting particular clusters
+Sometimes you may wish to target a particular cluster to run your jobs. For example, a particular cluster may have a dependency installed.
+
+The following example uses a regular expression, requiring the jobs to run on the "Old Library" cluster.
+
+````Requirements = TRUE == (regexp("OLDLIB", Name))````
+
+NOTE: This is untested, please let me know if it works as expected.
+
 ## Excluding clusters from tests.
 
 Sometimes there may be particular clusters you wish to exclude from the resources running your jobs. This could be because your jobs rely on a dependency which is unavailable on some clusters. Adding the following to your ````Requirements```` line will steer jobs away from clusters (e.g. don't have 7Zip or Java installed correctly).
