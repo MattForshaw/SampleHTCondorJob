@@ -31,7 +31,7 @@ Sometimes you may wish to target a particular cluster to run your jobs. For exam
 
 The following example uses a regular expression, requiring the jobs to run on the "Old Library" cluster.
 
-````Requirements = TRUE == (regexp("OLDLIB", Name))````
+````Requirements = OpSys == "WINNT61" && Arch == "INTEL" && TRUE == (regexp("OLDLIB", Name))````
 
 NOTE: This is untested, please let me know if it works as expected.
 
